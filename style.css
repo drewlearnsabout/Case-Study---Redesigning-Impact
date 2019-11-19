@@ -1,0 +1,218 @@
+/* 
+FONTS
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Oswald', sans-serif; 
+*/
+
+body {
+    margin: 0 auto;
+    padding-top: 5vh;
+}
+nav {
+    font-family: 'Oswald', sans-serif;
+    display: grid;
+    grid-template-columns: 5vw 10vw 63vw 5vw 7vw 10vw 5vw;
+    grid-template-areas:
+        ". logo . designs . contact ."
+}
+nav img, #navLogo {
+    width: 8vw;
+    grid-area: logo;
+}
+#navDesign, #navcontact {
+    font-size: 2vw;
+    text-decoration: none;
+    color: black;
+}
+#navDesign {
+    grid-area: designs;
+}
+#navcontact {
+    grid-area: contact;
+}
+header {
+    margin: 5vw auto;
+    display: grid;
+    justify-items: center;
+}
+header img {
+    width: 50vw;
+}
+#firstHeader {
+    background: #DCDCDC;
+}
+#firstHeader article {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.3vw;
+    padding: 5vh 21vw;
+}
+#introSection {
+    margin: 5vw 0;
+}
+#introSection article {
+    display: grid;
+    grid-template-columns: 21vw 10vw 10vw 35vw 10vw;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        ". titleOverview . phOverview ."
+        ". titleProblem . phProblem ."
+        ". titleGoal . phGoal .";
+    row-gap: 5vw;
+}
+#titleOverview {grid-area: titleOverview;}
+#titleProblem {grid-area: titleProblem;}
+#titleGoal {grid-area: titleGoal;}
+#phOverview {grid-area: phOverview;}
+#phProblem {grid-area: phProblem;}
+#phGoal {grid-area: phGoal;}
+#introSection article h3 {
+    font-size: 3vw;
+    font-family: 'Oswald', sans-serif;
+}
+#introSection article p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3vw;
+}
+#bigPicture {
+    background: #DCDCDC;
+}
+#bigPicture article {
+    font-family: 'Oswald', sans-serif;
+    padding: 3vw 0;
+    display: grid;
+    grid-template-columns: 21vw 5vw 50vw 10vw;
+    grid-template-areas: 
+        ". picture picture ."
+        ". . paragraph .";
+}
+#bigPicture h3, #bigPicture p {
+    font-weight: bold;
+}
+#bigPicture h3 {
+    font-size: 2.3vw;
+    grid-area: picture;
+}
+#bigPicture p {
+    font-size: 1.8vw;
+    grid-area: paragraph;
+}
+#gridSection {
+    margin: 5vw 0;
+}
+#gridSection article {
+    display: grid;
+    grid-template-columns: 21vw 10vw 10vw 35vw 10vw;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        ". titlePeople . phPeople ."
+        ". titleConstraints . phConstraints .";
+    row-gap: 5vw;
+}
+#titlePeople {grid-area: titlePeople;}
+#titleConstraints {grid-area: titleConstraints;}
+#phPeople {grid-area: phPeople;}
+#phConstraints {grid-area: phConstraints;}
+#gridSection article h3 {
+    font-size: 3vw;
+    font-family: 'Oswald', sans-serif;
+}
+#gridSection article p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3vw;
+}
+#processHeader {
+    background: #545454;
+}
+#processHeader article {
+    font-family: 'Oswald', sans-serif;
+    color: #EDEDED;
+    padding: 5vw 21vw 2vw 21vw;
+    font-size: 3vw;
+}
+#processSection {
+    padding: 2vw 0;
+}
+#processSection article {
+    padding: 0 21vw;
+}
+#processSection article h3 {
+    font-size: 3vw;
+    font-family: 'Oswald', sans-serif;
+}
+#processSection article p {
+    font-size: 1.3vw;
+    font-family: 'Titillium Web', sans-serif;
+}
+#outcomesHeader {
+    background: #545454;
+}
+#outcomesHeader article {
+    font-family: 'Oswald', sans-serif;
+    color: #EDEDED;
+    padding: 5vw 21vw 2vw 21vw;
+    font-size: 3vw;
+}
+#outcomesSection {
+    padding: 2vw 0;
+}
+#outcomesSection article {
+    padding: 0 21vw;
+}
+#outcomesSection article h3 {
+    font-size: 3vw;
+    font-family: 'Oswald', sans-serif;
+}
+#outcomesSection article p {
+    font-size: 1.3vw;
+    font-family: 'Titillium Web', sans-serif;
+}
+footer {
+    background: #2C2C2C;
+    color: #EFEFEF;
+}
+footer article {
+    display: grid;
+    grid-template-columns: 10vw 25vw 35vw 20vw 10vw;
+    grid-template-areas:
+        ". footerLeft . footerRight ."
+}
+#footerName {
+    font-size: 2.8vw;
+}
+#footerWeb {
+    font-size: 1.62vw;
+}
+#footerLeft a, #footerRight a {
+    text-decoration: none;
+    color: #EFEFEF;
+}
+#footerLeft a:hover, #footerRight a:hover {
+    color: purple;
+}
+#footerLeft {
+    font-family: 'Titillium Web', sans-serif;
+    grid-area: footerLeft;
+    display: grid;
+    grid-template-rows: 5vw;
+    align-self: center;
+}
+#footerRight {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    grid-area: footerRight;
+    display: grid;
+    align-self: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10vw;
+}
+#grayPh {
+    background: #C4C4C4;
+    padding: 3vw 3vw;
+    font-style: italic;
+}
+#impactChecklist, #beforeAfter, #visualAid, #wireframes, #curriculumDesign {
+    width:56vw;
+    padding: 3vw 0 3vw 0;
+}
+
+
