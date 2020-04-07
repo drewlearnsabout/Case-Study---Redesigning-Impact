@@ -228,7 +228,7 @@ footer article {
         font-size: 3.5vw;
     }
     #introSection article {
-        grid-template-columns: 17vw 10vw 10vw 43vw 2vw;
+        grid-template-columns: 9vw 10vw 10vw 60vw 2vw;
     }
     #introSection article h3 {
         font-size: 5.5vw;
@@ -250,7 +250,34 @@ footer article {
         font-size: 3vw;
     }
     #gridSection article {
-        grid-template-columns: 10vw 13vw 10vw 44vw 1vw;
+        grid-template-columns: 9vw 10vw 13vw 60vw 1vw;
+    }
+    #processSection img {
+        width: 100%;
+    }
+    #processHeader article {
+        font-size: 6.5vw;
+    }
+    #processSection article {
+        padding: 0 9vw;
+    }
+    #processSection article h3 {
+        font-size: 5vw;
+    }
+    #processSection article p {
+        font-size: 3vw;
+    }
+    #outcomesHeader article {
+        font-size: 5vw;
+    }
+    #outcomesSection article {
+        padding: 0 9vw;
+    }
+    #outcomesSection article h3 {
+        font-size: 5vw;
+    }
+    #outcomesSection article p {
+        font-size: 3vw;
     }
 }
 
