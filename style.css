@@ -214,5 +214,44 @@ footer article {
     width:56vw;
     padding: 3vw 0 3vw 0;
 }
+@media screen and (max-width: 900px) {
+    nav {
+        grid-template-columns: 6vw 10vw 60vw 5vw 7vw 10vw 3vw;
+    }
+    nav img, #navLogo {
+        width: 10vw;
+    }
+    #navDesign, #navcontact {
+        font-size: 2.5vw;
+    }
+    #firstHeader article {
+        font-size: 3.5vw;
+    }
+    #introSection article {
+        grid-template-columns: 17vw 10vw 10vw 43vw 2vw;
+    }
+    #introSection article h3 {
+        font-size: 5.5vw;
+    }
+    #introSection article p {
+        font-size: 3vw;
+    }
+    #bigPicture h3 {
+        font-size: 7vw;
+    }
+    #bigPicture p {
+        font-size: 4vw;
+    }
+    #gridSection article h3 {
+        font-size: 5.5vw;
+        align-self: start;
+    }
+    #gridSection article p {
+        font-size: 3vw;
+    }
+    #gridSection article {
+        grid-template-columns: 10vw 13vw 10vw 44vw 1vw;
+    }
+}
 
 
